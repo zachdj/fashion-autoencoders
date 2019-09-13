@@ -1,3 +1,4 @@
+#################### Default Ignores for Python Projects ####################
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -123,3 +124,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+#################### Project-level Ignores ####################
+
+# fashion-mnist data
+data/*
+!data/README.md
