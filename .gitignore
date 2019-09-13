@@ -129,3 +129,6 @@ dmypy.json
 # fashion-mnist data
 data/*
 !data/README.md
+
+# Ignore Jetbrains IDE files
+.idea
